@@ -1,0 +1,29 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "john",
+            "email": "john@gmail.com",
+            "password": "abc",
+            "orders": [
+                1
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Ross",
+            "email": "ross@gmail.com",
+            "password": "xyz",
+            "orders": []
+        }
+    ],
+    "orders": [
+        {
+            "id": 1,
+            "items": [],
+            "totalAmount": 0,
+            "totalQuantity": 0,
+            "status": "Placed"
+        }
+    ]
+}
